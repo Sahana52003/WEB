@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport</title>
+</head>
+<body>
+    <form>
+  <h2>User Registration</h2>
+  <label for="cpv">Register to apply at</label>
+  <input type="radio" id="cpv" name="cp" >CPV Delhi
+<input type="radio" name="cp" value="cpv">Passport Office  </select><br><br>
+  <label for="passport_office">Passport Office (As per Present Residential Address)*</label><br>
+  <select >
+    <option value="">----- Select -----</option>
+    <option value="">Delhi</option>
+    <option value="">Bangalore</option>
+    <option value="">Chennai</option>
+    <option value="">Kochi</option>
+    <option value="">Hyderabad</option>
+    <option value="">Surat</option>
+    <option value="">Kolkata</option>
+    <option value="">Goa</option>
+    <option value="">Jaipur</option>
+    <option value="">Pune</option>
+    <option value="">Nagpur</option>
+    <option value="">Bhopal</option>
+    <option value="">Mumbai</option>
+    <option value="">Raipur</option>
+  </select><br><br>
+
+  <p>Tibetan Refugees applying for Identity Certificate must register with 'Delhi' Passport Office.</em></p>
+
+  <label for="name">Given Name (Max 45 Characters)</label><br>
+  <input type="text" id="name" name="given_name" maxlength="45" required><br><br>
+
+  <label for="surname">Surname (Max 45 Characters)</label><br>
+  <input type="text" id="surname" name="surname" maxlength="45"><br><br>
+
+  <label for="dob">Date of Birth (DD/MM/YYYY)</label><br>
+  <input type="text" id="dob" name="dob" placeholder="DD/MM/YYYY" required><br><br>
+
+  <label for="email">E-mail Id (Max 35 Characters)</label><br>
+  <input type="email" id="email" name="email" maxlength="35" required><br><br>
+
+  <p>Do you want your Login Id to be same as E-mail Id?</p>
+  <input type="radio" id="login" name="loginid" value="yes" required>
+  <label for="login">Yes</label>
+  <input type="radio" id="login" name="loginid" value="no">
+  <label for="login">No</label><br><br>
+
+  <label for="loginid">Login Id</label><br>
+  <input type="text" id="loginid" name="login_id" required><br><br>
+
+  <label for="password">Password</label><br>
+  <input type="password" id="password" name="password" required><br><br>
+
+  <label for="confirmpassword">Confirm Password</label><br>
+  <input type="password" id="confirmpassword" name="confirm_password" required><br><br>
+
+  <label for="hintquestion">Hint Question</label><br>
+  <select>
+    <option value="">----- Select -----</option>
+    <option value="city">Birth City</option>
+    <option value="col">Favorite Color</option>
+    <option value="foody">Favorite Food</option>
+    <option value="hero">Favorite Hero</option>
+    <option value="name">Mother Name</option>
+    <option value="pet">Favorite Pet</option>
+  </select><br><br>
+
+  <label for="hintanswer">Hint Answer</label><br>
+  <input type="text" id="hintanswer" name="hanswer" required><br><br>
+
+  <label for="captcha">Enter Characters Displayed</label><br>
+  <img src="download (2).jpeg" alt="captcha image"><br>
+  <input type="text" id="captcha" name="captcha" required><br><br>
+
+  <input type="submit" value="Register">
+  <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>

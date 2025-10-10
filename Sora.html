@@ -38,19 +38,28 @@
         <dd>A programming language commonly used in web development</dd>
     </dl>
     <em>vxjsdcyfujdsfcdvyjc</em><br>
-    <i>wfwyuyedfhuerfy</i><form>
-        <input type="text" placeholder="Enter your name">
+    <i>wfwyuyedfhuerfy</i>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter name">
+        <input type="text" placeholder="Enter your name" required readonly hidden>
 <br><br>
         <input type="email" placeholder="Enter your name" ><br><br>
         <input type="date" name="date"><br><br>
         <input type="datetime-local"><br><br>
         <input type="password" placeholder="password"><br><br>
-        <input type="number" placeholder="1234567890"><br><br>
-        <input type="checkbox">Apple
-        <input type="checkbox">Orange<br><br>
-        <input type="radio" name="Male">Male
+        <input type="tel" placeholder="1234567890"><br><br>
+        <input type="checkbox" value="0">Apple
+        <input type="checkbox" value="1">Orange<br><br>
+        <label for="male">Gender</label>
+        <input type="radio" name="Male" id="male">Male
         <input type="radio" name="Male">Female
-        <input type="submit" value="submit">
+        <select name="dropdown"><!--If I select 1 ,it will provide in backend like dropdown=1-->
+            <option value="0">1</option>
+                <option value="true">2</option>
+            <option value="false">3</option>
+        </select><br><br>
+         <input type="submit" value="submit">
         <input type="reset" value="restart">
         <button type="submit">Submit</button>
     </form>
